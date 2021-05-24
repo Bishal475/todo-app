@@ -23,7 +23,7 @@ class Login extends Component {
         if(this.state.username==='bishal' && this.state.password==='Hello1'){
             this.props.history.push(`/welcome/${this.state.username}`)
             console.log(this.props.history)
-            console.log(this.state.username)
+            // console.log(this.state.username)
             sessionStorage.setItem("User",this.state.username);
             // this.setState({
             //     showSuccessMsg : true,
